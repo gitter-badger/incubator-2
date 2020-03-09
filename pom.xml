@@ -63,9 +63,11 @@
 	</ciManagement>
 
 	<properties>
-		<package-name>N/A</package-name>
 		<license.licenseName>N/A</license.licenseName>
 		<license.copyrightOwners>N/A</license.copyrightOwners>
+
+		<scijava.jvm.version>11</scijava.jvm.version>
+		<scijava.jvm.build.version>[11,11.9999]</scijava.jvm.build.version>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
